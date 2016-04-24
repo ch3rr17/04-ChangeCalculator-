@@ -1,0 +1,79 @@
+body{
+			
+	margin: 0 auto;
+	width: 980px;
+	font-family: Arial;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+h1{
+	font-family: "Starjedi", Arial;
+}
+.container{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 980px;
+	padding: 20px;
+	border: 1px solid #2874A6;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	color: #2874A6;
+	-webkit-box-shadow: 10px 10px 84px 0px rgba(17,74,189,1);
+	-moz-box-shadow: 10px 10px 84px 0px rgba(17,74,189,1);
+	box-shadow: 10px 10px 84px 0px rgba(17,74,189,1);
+}
+.custInput{
+	margin: 0 auto;
+	border: 1px solid #2874A6;
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+	
+}
+.sale{
+	margin: 0 auto;
+	width: 50%;
+	float: left;
+}
+.pay{
+	margin: 0 auto;
+	width: 50%;
+	float: right;	
+}
+.dollar{
+	margin: 0 auto;
+	border: 1px solid #2874A6;
+	text-align: center;
+	display: block;
+	
+}
+.coins{
+	border: 1px solid #2874A6;
+	padding: 10px;
+	overflow: hidden;
+}
+.col{
+	float: left;
+	width: 25%;
+	/*background-color: #FFDF00;*/
+}
+.output{
+	margin: 0 auto;
+	text-align: center;
+	color: red;
+}
+button{
+	background-color: #008CBA;
+	color: #FFFFFF;
+	display: inline-block;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+
+}
+#result{
+	background-color: #BBB7B7;
+	color: white;
+	border: 1px solid;
+	padding: 4px;
+}
